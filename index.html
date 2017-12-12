@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="inicio-sesion" id="inicioSesion">
+      <div class="contenido-sesion">
+       <p>Introduce tu Nombre</p>
+        <input type="text" id="nombre" class="nombre" placeholder="Nombre....">
+        <a href="#" class="boton-sesion" id="boton-sesion">Aceptar</a>
+     </div>
+</div>
+ 
+ <div class="contenedor">
+ <div id="tiempo" class="tiempo">
+ 
+</div>
+  <div id="letters" class="letras">
+     
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('a')">a</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('b')" >b</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('c')" >c</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('d')" >d</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('e')" >e</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('f')" >f</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('g')" >g</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('h')" >h</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('i')" >i</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('j')" >j</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('k')" >k</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('l')" >l</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('m')" >m</a><br>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('n')" >n</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('o')">o</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('p')" >p</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('q')" >q</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('r')" >r</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('s')" >s</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('t')" >t</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('u')" >u</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('v')" >v</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('w')" >w</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('x')" >x</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('y')" >y</a>
+      <a href="#" class="mouse-click" onclick="ObtenerPalabra('z')" >z</a>
+  </div>
+  <div class="contenido-nombre">
+      
+  </div>
+  <div class="contador">
+      <p>Ganadas: <span id="ganadas">0</span></p>
+      <p>Perdidas: <span id="perdidas">0</span></p>
+  </div>
+  
+   <div class="container">
+            <div id="firstDiv" class="div-style line1"></div>
+            <div id="secondDiv" class="div-style line2"></div>
+            <div id="thirdDiv" class="div-style line3"></div>
+            <div id="fourthDiv" class="div-style line4"></div>
+            <div id="fifthDiv" class="div-style line5"></div>
+    
+    </div>
+    <div id="contador" class="vidas">Te Quedan <span id="numContador">6</span> Vidas </div>
+    <div class="contenedor-de-pistas">
+    <a href="#" id="botonpista" class="botonPista" onclick="pista()">Pista</a>
+    <div class="contenido-pistas">
+        <div id="pista1" class="pistas">1</div>
+        <div id="pista2" class="pistas">2</div>
+        <div id="pista3" class="pistas">3</div>
+    
+    </div>
+    </div>
+    <div class="centrarBoton">
+    <a href="#" onclick="limpiar()" class="botonNuevo">Jugar de Nuevo</a>
+    </div>
+    
+</div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

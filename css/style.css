@@ -1,0 +1,134 @@
+body{
+    background-color: #B2BABB;
+    color: white;
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.div-style{
+    border-bottom: 2px solid white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letras a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    background-color: #85929E;
+    margin: 4px;
+    border-radius: 10px;
+}
+.letras{
+    display: flex;
+    justify-content: center;
+}
+.contenedorPantalla a{
+    text-decoration: none;
+    font-style: italic;
+    background-color: black;
+    padding: 8px;
+}
+h1{
+    font-size: 60px;
+}
+.pistas{
+    padding: 6px;
+    width: 250px;
+    border: 1px solid #85929E;
+    background-color: #85929E;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 10px;
+}
+.botonPista{
+    text-decoration: none;
+    background-color: #566573;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+}
+.contenido-pistas{
+    padding-top : 20px;
+}
+.contenedor-de-pistas{
+    margin: 30px;
+    
+}
+.tiempo{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.contador{
+    border: 3px dotted white;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.vidas{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.botonNuevo{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: #566573;
+}
+.centrarBoton{
+    text-align: center;
+}
+.contenido-sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenido-sesion p{
+    color: white;
+    font-size: 40px;
+}
+.nombre{
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border-color: #06B9A9;  
+}
+.boton-sesion{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inicio-sesion{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: #06B9A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-nombre{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+}
