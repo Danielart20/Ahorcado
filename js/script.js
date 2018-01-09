@@ -1,5 +1,4 @@
-var contadorPerdida = 0;
-var contadorGanada = 0;
+
 var clicks = 0;
 var contador = 6; //----CAMBIAR-----------------
 
@@ -21,7 +20,7 @@ var perdidas = document.getElementById("perdidas");
 
 var totalTiempo = 60;
 var bool = true;
-function init() {
+
     if("lose" in localStorage){
         var contadorPerdida = localStorage.getItem("lose"); 
         perdidas.innerHTML = localStorage.getItem("lose"); 
@@ -37,8 +36,8 @@ function init() {
     }
     //alert(contadorPerdida);
     
-}
-init();
+
+
 
 function reloj() {
     if (bool) {
@@ -131,7 +130,6 @@ function GameOver() {
 
 
     if (contador === 0) {
-        init();
         contadorPerdida++;
         saveLose();
         perdidas.innerHTML = contadorPerdida;
